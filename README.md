@@ -24,5 +24,8 @@ LLDB Python 扩展命令
 1.block.py
   获取32位设备 block 函数实现地址,自动计算ida对应函数实现地址,自动获取block函数参数
 
-2.sbr
+2.block64.py
+  获取64位设备 block 函数实现地址,自动计算ida对应函数实现地址,自动获取block函数参数
+
+3.sbr
   根据ida输入的地址添加获取主程序ALSR偏移地址自动下断点  
